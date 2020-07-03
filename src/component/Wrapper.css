@@ -1,0 +1,78 @@
+#wrapper > div.trello-list {
+  min-width: 272px;
+  width: 272px;
+  max-width: 272px;
+  box-sizing: border-box;
+  background-color: #ebecf0;
+  color: #172b4d;
+}
+
+div.trello-list h6 {
+  flex-grow: 1;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+div.trello-list h6.trello-title {
+  font-weight: normal;
+}
+
+div.trello-list button {
+  font-size: 0.9rem;
+  color: #6b778c;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+
+div.trello-list button:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+button.add-list {
+  min-width: 272px;
+  width: 272px;
+  max-width: 272px;
+  color: #172b4d;
+  font-size: 14px;
+  font-weight: normal;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+button.add-list:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+#list-title-input {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#add-list-popup {
+  display: none;
+  z-index: 10;
+  background-color: rgba(200, 255, 255, 0.7);
+  position: absolute;
+}
+
+.list-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  display: none;
+  width: 280px;
+  background-color: #fafafa;
+  box-shadow: rgba(180, 180, 180, 0.7) 2px 2px 3px 1px;
+}
+
+.list-menu .list-group .list-group-item {
+  cursor: pointer;
+  font-size: 14px;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.list-menu .list-group .list-group-item > i {
+  opacity: 0.65;
+}
