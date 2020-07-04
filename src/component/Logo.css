@@ -1,0 +1,15 @@
+.Logo {
+  opacity: 0.8;
+  font-family: 'Pacifico', cursive;
+  font-weight: normal;
+  animation: fadeInLogo 150ms ease-out;
+}
+
+@keyframes fadeInLogo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}

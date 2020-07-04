@@ -1,5 +1,7 @@
 import React from "react";
 import "./NavTop.css";
+import Loader from "./Loader";
+import Logo from "./Logo";
 
 const NavTop = ({isLoading}) => {
   return (
@@ -11,7 +13,7 @@ const NavTop = ({isLoading}) => {
       </div>
 
       <div className="d-flex justify-content-center align-items-center first-nav text-light" id="centerhold">
-        {isLoading ? "Loading....":"Trello"}
+        {isLoading ? <Loader /> : <Logo />}
       </div>
       
       <div className="d-flex">
