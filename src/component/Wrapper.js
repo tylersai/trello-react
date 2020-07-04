@@ -22,11 +22,9 @@ const Wrapper = ({setIsLoading}) => {
     fetchLists();
   }, []);
 
-  if(!lists) return null;
-
   return (
   <div id="wrapper" className="Wrapper p-2">
-    {lists.map(list => (
+    {lists && lists.map(list => (
       <div key={list.id} className="trello-list rounded m-1 px-2 py-1 pb-2 trello-fadein" >
       <div className="d-flex justify-content-between align-items-center mb-1">
         <h6 className="pl-2">{list.title}</h6>
