@@ -5,7 +5,7 @@ import Logo from "./Logo";
 
 const NavTop = ({isLoading}) => {
   return (
-    <nav id="NavTop first-nav" className="d-flex justify-content-between first-nav text-light">
+    <nav id="first-nav" className="NavTop d-flex justify-content-between first-nav text-light">
       <div className="d-flex">
         <button className="btn btn-sm text-light m-1"><i className="fa fa-th-large"></i></button>
         <button className="btn btn-sm text-light m-1"><i className="fa fa-home"></i></button>
